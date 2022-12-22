@@ -9,7 +9,6 @@ import { ethers } from "ethers"
 import MusicNFTMarketplaceAbi from '../contractsData/MusicNFTMarketplace.json'
 import MusicNFTMarketplaceAddress from '../contractsData/MusicNFTMarketplace-address.json'
 import { Spinner, Navbar, Nav, Button, Container } from 'react-bootstrap'
-import logo from './logo.png'
 import Home from './Home.js'
 import MyTokens from './MyTokens.js'
 import MyResales from './MyResales.js'
@@ -39,7 +38,7 @@ function App() {
     <BrowserRouter>
       <div className="App bg-dark">
         <>
-          <Navbar expand="lg" bg="dark" variant="dark">
+          <Navbar className="Nav" expand="lg" variant="dark">
             <Container>
               <Navbar.Brand>
                 &nbsp; Music NFT player
