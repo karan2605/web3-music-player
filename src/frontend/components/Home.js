@@ -75,14 +75,14 @@ const Home = ({ contract }) => {
   )
   return (
 
-    <div className="container-fluid mt-5">
+    <div className="container-fluid mt-5 bg-dark">
 
       {marketItems.length > 0 ?
-        <div className="row">
-          <main role="main" className="col-lg-12 mx-auto" style={{ maxWidth: '500px' }}>
-            <div className="content mx-auto">
+        <div className="row bg-dark">
+          <main role="main" className="col-lg-12 mx-auto bg-dark" style={{ maxWidth: '500px' }}>
+            <div className="content mx-auto bg-dark">
               <audio src={marketItems[currentItemIndex].audio} ref={audioRef}></audio>
-              <Card>
+              <Card className='Card'>
                 <Card.Header>{currentItemIndex + 1} of {marketItems.length}</Card.Header>
                 <Card.Img variant="top" src={marketItems[currentItemIndex].identicon} />
                 <Card.Body color="secondary">
