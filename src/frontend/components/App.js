@@ -37,12 +37,11 @@ function App() {
   }
   return (
     <BrowserRouter>
-      <div className="App">
+      <div className="App bg-dark">
         <>
-          <Navbar expand="lg" bg="secondary" variant="dark">
+          <Navbar expand="lg" bg="dark" variant="dark">
             <Container>
-              <Navbar.Brand href="http://www.dappuniversity.com/bootcamp">
-                <img src={logo} width="40" height="40" className="" alt="" />
+              <Navbar.Brand>
                 &nbsp; Music NFT player
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -72,7 +71,7 @@ function App() {
             </Container>
           </Navbar>
         </>
-        <div>
+        <div className="bg-dark">
           {loading ? (
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', minHeight: '80vh' }}>
               <Spinner animation="border" style={{ display: 'flex' }} />
