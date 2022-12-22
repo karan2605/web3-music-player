@@ -34,15 +34,11 @@ $ npx hardhat node
 
 
 ### 5. Run deploy script to migrate smart contracts
-`npm run deploy`
+`$ npm run deploy`
 
 ### 6. Run Tests
 `$ npx hardhat test`
 
 ### 7. Launch Frontend
 `$ npm run start`
-
-License
-----
-MIT
 
