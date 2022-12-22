@@ -63,7 +63,7 @@ export default function MyResales({ contract, account }) {
     </main>
   )
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center bg-dark">
       <div className="flex justify-center">
         {listedItems.length > 0 ?
           <div className="px-5 py-3 container">
