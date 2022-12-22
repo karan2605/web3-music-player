@@ -1,5 +1,5 @@
 {
-  "name": "music_nfts",
+  "name": "web3-music-player",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -26,6 +26,7 @@
   "scripts": {
     "deploy": "npx hardhat run src/backend/scripts/deploy.js --network localhost",
     "start": "react-scripts start",
+    "blockchain" : "export SET NODE_OPTIONS=--openssl-legacy-provider && npx hardhat node",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
